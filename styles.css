@@ -1,0 +1,40 @@
+/* 容器样式 */
+.countdown-container {
+    padding: 10px;
+    overflow-y: auto;
+}
+
+/* 卡片样式 */
+.countdown-card {
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid var(--background-modifier-border);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.countdown-title {
+    margin: 0 0 10px 0;
+    font-size: 1.1em;
+    color: var(--text-normal);
+    font-weight: 600;
+}
+
+.countdown-time {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--interactive-accent);
+    margin-bottom: 5px;
+}
+
+.countdown-time.finished {
+    color: var(--text-success);
+}
+
+.countdown-date-hint {
+    color: var(--text-muted);
+    font-size: 0.8em;
+    display: block;
+    margin-top: 5px;
+}

@@ -38,3 +38,10 @@
     display: block;
     margin-top: 5px;
 }
+
+.countdown-lunar-hint {
+    color: var(--text-faint);
+    font-size: 0.8em;
+    display: block;
+    margin-top: 3px;
+}
